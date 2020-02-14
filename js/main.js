@@ -3,10 +3,7 @@ titulo.textContent = "ETECIA Nutrição e Dietética"
 
 let pacientes = document.querySelectorAll(".paciente")
 
-    pacientes.forEach(calcularImc);
-
-
-function calcularImc(paciente){
+pacientes.forEach(function (paciente) {
     let peso = paciente.querySelector(".info-peso").textContent
     let altura = paciente.querySelector(".info-altura").textContent
 
@@ -29,4 +26,4 @@ function calcularImc(paciente){
         let imc = peso / altura ** 2
         tdImc.textContent = imc.toFixed(2);
     }
-}
+});
