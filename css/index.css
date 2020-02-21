@@ -83,6 +83,7 @@ label{
 	border: 1px solid #ccc;
 	padding: .7em;
 	width: 100%;
+	border-radius: 30px;
 }
 
 .campo-medio{
@@ -97,7 +98,7 @@ label{
 }
 
 button{
-	padding: .5em 2em;
+	padding: .5em .5em;
 	border: 0;
 	border-bottom: 3px solid;
 	font-size: 1.2em;
@@ -134,6 +135,11 @@ button[disabled=disabled], button:disabled {
 }
 
 .paciente-invalido{
-	background-color: #4661e1;
+	background-color: #4169e1;
 	color: #ffffff
+}
+marquee{
+	font-size: 3.5em;
+	display:inline-block;
+	vertical-align:	middle;
 }
